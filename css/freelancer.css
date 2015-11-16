@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #189cbc;
+    color: #89e8e8;
 }
 
 h1,
@@ -58,21 +58,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #f5f4ff;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #189cbc;
+    color: #f5f4ff;
+    background-color: #335c67;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #335c67;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
+    color: #335c67;
+    background-color: #f5f4ff;
 }
 
 .img-centered {
@@ -81,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #189cbc;
+    color: #f5f4ff;
+    background: #335c67;
 }
 
 header .container {
@@ -180,17 +180,21 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #189cbc;
+    color: #f5f4ff;
+    background: #335c67;
 }
 
-section.success a,
-section.success a:hover,
+section.success a {
+    outline: 0;
+    color: #f5f4ff;
+}
+
 section.success a:focus,
 section.success a:active,
-section.success a.active {
+section.success a.active,
+section.success a:hover {
     outline: 0;
-    color: #2c3e50;
+    color: #335c67;
 }
 
 @media(max-width:767px) {
@@ -220,7 +224,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(137,232,232,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -238,7 +242,7 @@ section.success a.active {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #f5f4ff;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -262,9 +266,9 @@ section.success a.active {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #f5f4ff;
     font-size: 20px;
-    color: #fff;
+    color: #f5f4ff;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -273,16 +277,16 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #189cbc;
-    background: #fff;
+    border: solid 2px #f5f4ff;
+    color: #335c67;
+    background: #f5f4ff;
 }
 
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ccc;
 }
 
 .floating-label-form-group input,
@@ -318,7 +322,7 @@ section.success a.active {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #eee;
+    border-left: 1px solid #ccc;
 }
 
 .floating-label-form-group-with-value label {
@@ -327,15 +331,15 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #189cbc;
+    color: #335c67;
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ccc;
 }
 
 footer {
-    color: #fff;
+    color: #f5f4ff;
 }
 
 footer h3 {
@@ -344,7 +348,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #4c3b4d;
 }
 
 footer .footer-col {
@@ -353,14 +357,14 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #3a3335;
 }
 
 .btn-social {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid #f5f4ff;
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -403,6 +407,8 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #f5f4ff;
+    
 }
 
 .portfolio-modal .modal-content h2 {
@@ -437,7 +443,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #335c67;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -447,7 +453,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #335c67;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -463,4 +469,41 @@ footer .footer-below {
 
 .circle {
     border-radius: 50%;
+}
+
+#contact, #portfolio {
+    background-color: #f5f4ff;
+}
+.navbar {
+    background-color: #3a3335;
+}
+
+.navbar .page-scroll {
+    background-color: #3a3335;
+}
+
+.icon-bar, .navbar-brand {
+    color: #f5f4ff;
+}
+
+#contact h2, #portfolio h2, .portfolio-modal {
+    color: #335c67;
+}
+
+.form-group button:hover, .portfolio-modal button:hover {
+    border: 1px solid #3a3335;
+    background-color: #3a3335;
+}
+
+.form-group button, .portfolio-modal button {
+    border: 1px solid #335c67;
+    background-color: #335c67;
+}
+
+label {
+    color: #335c67;
+}
+
+.portfolio-item img {
+    border-radius: 10px;
 }
