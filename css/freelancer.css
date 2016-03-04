@@ -474,20 +474,12 @@ footer .footer-below {
 #contact, #portfolio {
     background-color: #f0f0f0;
 }
-.navbar {
+.navbar, .navbar .page-scroll {
     background-color: #413a41;
 }
 
-.navbar .page-scroll {
-    background-color: #413a41;
-}
-
-.icon-bar, .navbar-brand {
+.icon-bar, .navbar-brand, footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
     color: #f0f0f0;
-}
-
-#portfolio h2 {
-    color: #446b42;
 }
 
 .form-group button:hover, .portfolio-modal button:hover {
@@ -500,7 +492,7 @@ footer .footer-below {
     background-color: #446b42;
 }
 
-label {
+label, .modal-body p, #portfolio h2 {
     color: #446b42;
 }
 
