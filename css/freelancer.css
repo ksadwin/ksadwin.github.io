@@ -498,7 +498,7 @@ section.no-success {
 }
 
 header a, header a:hover,
-.success a:hover, .success h3 a:hover, .success a:visited, .success h3 a:visited,
+.success a:hover, .success h3 a:hover, .success a:visited, .success h3 a:visited, .success p a:hover, .success p a:visited,
 .icon-bar,
 .navbar-brand,
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
