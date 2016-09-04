@@ -71,11 +71,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive circle" src="img/profile.png" alt="Picture of K Sadwin in human form">
                     <div class="intro-text">
                         <span class="name">K SADWIN</span>
+                    <!-- <img class="img-responsive circle" src="img/profile.png" alt="Picture of K Sadwin in human form"> -->
+                        <h2>Renaissance Man</h2>
                         <hr class="star-primary">
-                        <span class="skills">Human-shaped Computer - Python Wrangler - Real Life Sailor Scout</span>
+                        <p><span class="skills"><a href="#">Computer Scientist</a> - Writer - Yarn Wrangler</span></p>
+                        <span class="skills">Musician - Artist - Real Life Sailor Starlight</span>
                     </div>
                 </div>
             </div>
@@ -111,17 +113,40 @@
     
     
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section class="success" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>CODE</h2>
                     <hr class="star-primary">
+                    <p>Sadwin is a recent Ithaca College grad with a B.S. in Computer Science. Here are some projects.</p>
                 </div>
             </div>
             <div class="row" id="featured">
                 
-                <div class="col-sm-6 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal17" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                Tumblr Taggregator <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/taggregator.png" class="img-responsive">
+                    </a>
+                </div>
+                
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                OkCupid Linguistics <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/okc.png" class="img-responsive">
+                    </a>
+                </div>
+                
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -131,14 +156,15 @@
                         <img src="img/portfolio/490se.png" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal18" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                Linguistic Self-Expression ... <i class="fa fa-search-plus fa-3x"></i>
+                                IC Library on Android <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/okc.png" class="img-responsive">
+                        <img src="img/portfolio/iclibrary.png" class="img-responsive">
                     </a>
                 </div>
             </div>
@@ -230,6 +256,8 @@
                     </a>
                 </div>
             </div>
+            
+            <!-- the silly things now have their own sections
             <div class="row" id="silly-things">
                 <div class="col-sm-2 portfolio-item">
                     <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
@@ -291,7 +319,7 @@
                         <img src="img/portfolio/grace.jpg" class="img-responsive" alt="An Octocat in the style of Grace Hopper">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -367,7 +395,7 @@
                                     </strong>
                                 </li>
                                 <li>Platform:
-                                    <strong>Python 3.4, SQLite 3
+                                    <strong>Python, SQLite
                                     </strong>
                                 </li>
                             </ul>
@@ -393,14 +421,14 @@
                             <h2>Python Search Engine</h2>
                             <hr class="star-primary">
                             <a href="https://github.com/ksadwin/WestWinVictoryTeam" target="_blank"><img src="img/portfolio/490se.png" class="img-responsive img-centered" alt="The Search Engine in action"></a>
-                            <p>A Python-based search engine built through Doug Turnbull's Search Engines and Recommender Systems class at Ithaca College. Developed by K Sadwin and Jen Westling, using examples provided in class.</p>
+                            <p>A Python-based search engine built through Doug Turnbull's Search Engines and Recommender Systems class at Ithaca College.</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
                                     <strong>Spring 2015
                                     </strong>
                                 </li>
                                 <li>Platform:
-                                    <strong>Python 3.4, SQLite 3
+                                    <strong>Python, SQLite
                                     </strong>
                                 </li>
                             </ul>
@@ -427,14 +455,14 @@
                             <hr class="star-primary">
                             <a href="https://github.com/bethdellea/TheDatingLang" target="_blank"><img src="img/portfolio/okc.png" class="img-responsive img-centered" alt="A database of users: the first big step in our project"></a>
                             <p>An in-progress, undergraduate research project with <a href="http://bethdellea.github.io/">Beth Dellea</a> that seeks to identify idiosyncratic features of language on the dating website OkCupid. Over 1500 user profiles have been scraped and tagged with gender, sexual orientation, location, and age as reported by the user on the website. The full text of profiles and their tags were stored in a SQLite database. Ongoing analysis includes measuring linguistic features using Natural Language Processing (NLP) and using K means clustering on the corpus of profiles. The most concise and engaging results appear when the profiles are <a href="okc.html">visualized using word clouds grouped by the tags.</a></p>
-                            <p>Findings to be presented at the <a href="http://nycwic.acm.org/">New York Celebration of Women in Computing (NYCWiC)</a> and the <a href="http://www.ithaca.edu/sponsored-research/whalen/">James J. Whalen Academic Symposium</a> in Spring 2016, where Dellea and Sadwin are finalists for awards.</p>
+                            <p>Findings were presented at the <a href="http://nycwic.acm.org/">New York Celebration of Women in Computing (NYCWiC)</a> and the <a href="http://www.ithaca.edu/sponsored-research/whalen/">James J. Whalen Academic Symposium</a> in Spring 2016, where Dellea and Sadwin were finalists for awards.</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
-                                    <strong>Fall 2015 (ongoing)
+                                    <strong>Fall 2015-Spring 2016
                                     </strong>
                                 </li>
                                 <li>Platform:
-                                    <strong>Python 3.4, SQLite 3
+                                    <strong>Python, SQLite
                                     </strong>
                                 </li>
                             </ul>
@@ -494,7 +522,7 @@
                             <h2>Gender Neutralizer</h2>
                             <hr class="star-primary">
                             <a href="https://github.com/ksadwin/GenderNeutralizer" target="_blank"><img src="img/portfolio/neut.png" class="img-responsive img-centered"></a>
-                            <p>A Google Chrome extension that changes all he and she pronouns to they pronouns, and replaces gendered language. For instance, "her sister" becomes "their sibling". Began as an idea hatched at WiCHacks 2015 that never came to fruition... until now! <a href="neutExtension.crx">Download it here.</a> It's still pretty clunky (lots of "they is" and capitalization issues) but it's fun.</p>
+                            <p>A Google Chrome extension that changes pronouns and gendered language. For instance, "her sister" becomes "their sibling". Began as an idea hatched at WiCHacks 2015 that never came to fruition... until now! <a href="neutExtension.crx">Download it here.</a> It's still pretty clunky (lots of "they is" and capitalization issues) but it's fun.</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
                                     <strong>WiCHacks 2015 (with edits Spring 2016)
@@ -881,6 +909,74 @@
                                 </li>
                                 <li>Platform:
                                     <strong>Ink pens
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tumblr Taggregation engine</h2>
+                            <hr class="star-primary">
+                            <a href="http://iraedria.ksadwin.com/taggregator/tumblr" target="_blank"><img src="img/portfolio/taggregator.png" class="img-responsive img-centered"></a>
+                            <p>A customizable iframe that automatically updates with a Tumblr user's most popular tags from their latest 50 posts.</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>August 2016
+                                    </strong>
+                                </li>
+                                <li>Platform:
+                                    <strong>Python/Flask, HTML/CSS/jQuery/Bootstrap, AWS (EC2)
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ithaca College Library Android App</h2>
+                            <hr class="star-primary">
+                            <a href="https://github.com/ksadwin/Ithaca-Library-Android-App" target="_blank"><img src="img/portfolio/iclibrary.png" class="img-responsive img-centered"></a>
+                            <p>A port of the existing iOS app for the Ithaca College Library to Android. This project was completed as part of a Software Engineering class with an emphasis on the proper process of AGILE (Scrum) development, including documentation and testing.</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>Spring 2016
+                                    </strong>
+                                </li>
+                                <li>Platform:
+                                    <strong>Java for Android
                                     </strong>
                                 </li>
                             </ul>
