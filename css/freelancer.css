@@ -81,8 +81,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #446b42;
-    background: #f0f0f0;
+    color: #f0f0f0;
+    background: #446b42;
 }
 
 header .container {
@@ -465,20 +465,43 @@ footer .footer-below {
 }
 
 
+
+
+
+
 /* Added by me */
 
-.circle {
-    border-radius: 50%;
+.intro {
+    border-radius: 10%;
+    float: left;
 }
 
-#contact, #portfolio {
+section.no-success {
     background-color: #f0f0f0;
 }
+
+.no-success .btn-outline {
+    margin-top: 15px;
+    border: solid 2px #735c84;
+    font-size: 20px;
+    color: #735c84;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.no-success h2 {
+    color: #735c84;
+}
+
 .navbar, .navbar .page-scroll {
     background-color: #413a41;
 }
 
-.icon-bar, .navbar-brand, footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
+header a, header a:hover,
+.success a:hover, .success h3 a:hover, .success a:visited, .success h3 a:visited,
+.icon-bar,
+.navbar-brand,
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
     color: #f0f0f0;
 }
 
@@ -492,7 +515,7 @@ footer .footer-below {
     background-color: #446b42;
 }
 
-label, .modal-body p, #portfolio h2 {
+label, .modal-body p {
     color: #446b42;
 }
 
@@ -501,8 +524,17 @@ label, .modal-body p, #portfolio h2 {
 }
 
 /* link, visited, hover, active */
-a:hover, .skills, .portfolio-modal {
+.portfolio-modal {
     color: #735c84;
+}
+
+.no-success .btn-outline:hover,
+.no-success .btn-outline:focus,
+.no-success .btn-outline:active,
+.no-success .btn-outline.active {
+    border: solid 2px #735c84;
+    color: #f0f0f0;
+    background: #735c84;
 }
 
 
